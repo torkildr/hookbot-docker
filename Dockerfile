@@ -4,7 +4,7 @@ RUN \
   apk update && \
   apk add ca-certificates wget
 RUN wget \
-  https://github.com/sensiblecodeio/hookbot/releases/download/v0.4/hookbot_linux_amd64 \
+  https://github.com/sensiblecodeio/hookbot/releases/download/v0.6/hookbot_linux_amd64 \
   -O /hookbot
 RUN chmod +x /hookbot
 
